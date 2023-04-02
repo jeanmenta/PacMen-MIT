@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PacMen</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      background-image: url("/images/DALLE2-Backdrop.png");
+    }
+    #game {
+      height: 100vh;
+      width: 100vw;
+      background-color: black;
+      background-image: url("/images/DALLE2-Backdrop.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+    }
+    .btn {
+      margin-left: 20px;
+      margin-top: 20px;
+      height: 30px;
+      width: 100px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+    }
+  </style>
+  <body>
+    <!-- Game container -->
+    <div id="game">
+      <button class="btn" id="addPacMan">Add PacMan</button>
+      <button class="btn" id="startGame">Start Game</button>
+    </div>
+    <script src="/pacmen.js"></script>
+  </body>
+</html>
