@@ -1,7 +1,5 @@
-# Project Title
-PacMen Exercise
+# PacMen Exercise
 
-## Description of Project
 This project is a simple, interactive PacMen exercise where users can add multiple PacMen to the screen and watch them bounce around within the browser window.
 
 ## How to Run
